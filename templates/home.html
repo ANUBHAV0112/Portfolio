@@ -1,0 +1,304 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>My Portfolio</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicon -->
+  {% comment %} <link href="{% static 'img/favicon.ico' %}" rel="icon"> {% endcomment %}
+
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Icon Font Stylesheet -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Libraries Stylesheet -->
+  <link href="{% static 'lib/animate/animate.min.css' %}" rel="stylesheet">
+  <link href="{% static 'lib/lightbox/css/lightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'lib/slick/slick.css' %}" rel="stylesheet">
+  <link href="{% static 'lib/slick/slick-theme.css' %}" rel="stylesheet">
+
+  <!-- Customized Bootstrap Stylesheet -->
+
+  <link rel="stylesheet" href="{% static 'lib/bootstrap/css/bootstrap.min.css' %}">
+  
+  
+ 
+  <!-- Template Stylesheet -->
+  <link rel="stylesheet" href="{% static 'style.css' %}">
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <div class="wrapper">
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <img src="{% static 'img/profile.jpg' %}" alt="Profile Image" />
+
+            </div>
+            <div class="sidebar-content">
+                <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                    <a href="#" class="navbar-brand">Navigation</a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="#header">Home<i class="fa fa-home"></i></a></li>
+                            <li class="nav-item"><a class="nav-link" href="#about">About<i class="fa fa-address-card"></i></a></li>
+                            <li class="nav-item"><a class="nav-link" href="#experience">Experience<i class="fa fa-star"></i></a></li>
+                            <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio<i class="fa fa-file-archive"></i></a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contact">Contact<i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="sidebar-footer">
+                <a class="btn" href="https://www.linkedin.com/in/anubhav-choudhary-35b8ab254/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn" href="https://github.com/ANUBHAV0112" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+
+        <div class="content">
+            <!-- Header Start -->
+            <div class="header" id="header">
+                <div class="content-inner">
+                    <p>I'm</p>
+                    <h1>Anubhav Choudhary</h1>
+                    <h2></h2>
+                    <div class="typed-text">Web Developer, Front End Developer, Back End Developer</div>
+                </div>
+            </div>
+            <!-- Header End -->
+
+            <!-- Large Button Start -->
+            <div class="large-btn">
+                <div class="content-inner">
+                    <a class="btn" href="{% static 'files/AnubhavChoudharyResume.pdf.pdf' %}" target="_blank"><i class="fa fa-download"></i> Resume</a>
+                    <a class="btn" href="#contact"><i class="fa fa-hands-helping"></i>Hire Me</a>
+                </div>
+            </div>
+            <!-- Large Button End -->
+
+            <!-- About Start -->
+            <div class="about" id="about">
+                <div class="content-inner">
+                    <div class="content-header">
+                        <h2>About Me</h2>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-md-6 col-lg-5">
+                            <img src="{% static 'img/about.jpg' %}" alt="Image">
+                        </div>
+                        <div class="col-md-6 col-lg-7">
+                            <p>I am a BSc Computer Science graduate with expertise in Python, React JS, Machine Learning, Java, CSS, HTML, Django, and Flask. I approach problems with curiosity, adaptability, and collaboration. I am seeking a role where my skills and enthusiasm can contribute to the success of a dynamic team.</p>
+                            <a class="btn" href="#contact">Hire Me</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="skills">
+                                <div class="skill-name"><p>Python</p><p>85%</p></div>
+                                <div class="progress"><div class="progress-bar" role="progressbar" style="width: 85%;"></div></div>
+                                <div class="skill-name"><p>Django Framework</p><p>75%</p></div>
+                                <div class="progress"><div class="progress-bar" role="progressbar" style="width: 75%;"></div></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="skills">
+                                <div class="skill-name"><p>MySQL</p><p>50%</p></div>
+                                <div class="progress"><div class="progress-bar" role="progressbar" style="width: 50%;"></div></div>
+                                <div class="skill-name"><p>React.js</p><p>65%</p></div>
+                                <div class="progress"><div class="progress-bar" role="progressbar" style="width: 65%;"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+
+            <!-- Education Start -->
+            <div class="education" id="education">
+                <div class="content-inner">
+                    <div class="content-header"><h2>Education</h2></div>
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <div class="edu-col">
+                                <span>1-Aug-2019 <i>to</i> 1-Nov-2022</span>
+                                <h3>Bachelor Degree</h3>
+                                <p>Completed BSc Computer Science at Yotta. (Custom content can replace this placeholder.)</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="edu-col">
+                                <span>Mar-2017 <i>to</i> Mar-2018</span>
+                                <h3>High School</h3>
+                                <p>Completed senior secondary education with science stream. (Customize this description.)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Education End -->
+
+            <!-- Experience Start -->
+            <div class="experience" id="experience">
+                <div class="content-inner">
+                    <div class="content-header"><h2>Experience</h2></div>
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <div class="exp-col">
+                                <span>01-Apr-2025 <i>to</i> Present</span>
+                                <h3>Yotta Data Services Private Limited</h3>
+                                <h4>Navi Mumbai, Maharashtra</h4>
+                                <h5>Intern</h5>
+                                <p>Contributing to AI and web-based projects, gaining hands-on experience with Django, React, and cloud platforms.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Experience End -->
+
+            <!-- Portfolio Start -->
+            <div class="portfolio" id="portfolio">
+                <div class="content-inner">
+                    <div class="content-header"><h2>Portfolio</h2></div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <ul id="portfolio-flters">
+                                <li data-filter="*" class="filter-active">All</li>
+                                <li data-filter=".web-des">Python</li>
+                                <li data-filter=".web-dev">React.js</li>
+                                <li data-filter=".dig-mar">AI/ML</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row portfolio-container">
+                        <div class="col-lg-4 col-md-6 portfolio-item web-des">
+                            <div class="portfolio-wrap">
+                                <figure>
+                                    <img src="{% static 'img/portfolio1.png' %}" class="img-fluid" alt="">
+                                    <a href="{% static 'img/portfolio-1.png' %}" data-lightbox="portfolio" class="link-preview" title="Preview"><i class="fa fa-eye"></i></a>
+                                    <a href="https://github.com/ANUBHAV0112/-Restaurant-Website" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
+                                    <a class="portfolio-title" href="#">Restaurant Site <span>Python Django</span></a>
+                                </figure>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item web-dev">
+                            <div class="portfolio-wrap">
+                                <figure>
+                                    <img src="{% static 'img/portfolio-2.jpg' %}" class="img-fluid" alt="">
+                                    <a href="{% static 'img/portfolio2.png' %}" data-lightbox="portfolio" class="link-preview" title="Preview"><i class="fa fa-eye"></i></a>
+                                    <a href="https://educommerce.netlify.app/" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
+                                    <a class="portfolio-title" href="#">E-commerce <span>React.js</span></a>
+                                </figure>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 portfolio-item dig-mar">
+                            <div class="portfolio-wrap">
+                                <figure>
+                                    <img src="{% static 'img/portfolio-3.jpg' %}" class="img-fluid" alt="">
+                                    <a href="{% static 'img/chatbot output.jpg' %}" data-lightbox="portfolio" class="link-preview" title="Preview"><i class="fa fa-eye"></i></a>
+                                    <a href="https://github.com/ANUBHAV0112/weather_boty" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
+                                    <a class="portfolio-title" href="#">Weather Bot <span>AI/ML</span></a>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Portfolio End -->
+
+            <!-- Contact Start -->
+            <form method="POST" action="{% url 'contact' %}">
+                {% csrf_token %}
+                <div class="contact" id="contact">
+                  <div class="content-inner">
+                    <div class="content-header"><h2>Contact</h2></div>
+                    <div class="row align-items-center">
+                      <div class="col-md-6">
+                        <div class="contact-info">
+                          <p><i class="fa fa-user"></i>Anubhav Choudhary</p>
+                          <p><i class="fa fa-tag"></i>Web Developer</p>
+                          <p><i class="fa fa-envelope"></i><a href="mailto:anubhavchoudhary211@gmail.com">anubhavchoudhary211@gmail.com</a></p>
+                          <p><i class="fa fa-phone"></i><a href="tel:+918219024286">8219024286</a></p>
+                          <p><i class="fa fa-map-marker"></i>Navi Mumbai</p>
+                          <div class="social">
+                            <a class="btn" href="https://www.linkedin.com/in/anubhav-choudhary-35b8ab254/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn" href="https://github.com/ANUBHAV0112" target="_blank"><i class="fab fa-github"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form">
+                          <div class="form-row">
+                            <div class="form-group col-md-6">
+                              <input type="text" name="name" class="form-control" placeholder="Your Name" required />
+                            </div>
+                            <div class="form-group col-md-6">
+                              <input type="email" name="email" class="form-control" placeholder="Your Email" required />
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <input type="text" name="subject" class="form-control" placeholder="Subject" required />
+                          </div>
+                          <div class="form-group">
+                            <textarea name="message" class="form-control" rows="5" placeholder="Message" required></textarea>
+                          </div>
+                          <div>
+                            <button class="btn" type="submit">Send Message</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+              
+            <!-- Contact End -->
+
+            <!-- Footer Start -->
+            <div class="footer">
+                <div class="content-inner">
+                    <div class="row align-items-center">
+                        <div class="col-md-6"><p>&copy; Copyright <a href="#">Anubhav Choudhary</a></p></div>
+                        {% comment %} 
+                        <div class="col-md-6"><p>Powered by <a href="https://htmlcodex.com">HTML Codex</a></p></div> {% endcomment %}
+                    </div>
+                </div>
+            </div>
+            <!-- Footer End -->
+        </div>
+    </div>
+
+    <a href="#" class="back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="{% static 'lib/jquery/jquery.min.js' %}"></script>
+  
+  <script src="{% static 'lib/lightbox/js/lightbox.min.js' %}"></script>
+  <script src="{% static 'lib/isotope/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'lib/slick/slick.min.js' %}"></script>
+  <script src="{% static 'lib/typed/typed.min.js' %}"></script>
+  <script src="{% static 'lib/waypoints/waypoints.min.js' %}"></script>
+  <script src="{% static 'lib/easing/easing.min.js' %}"></script>
+  <script src="{% static 'lib/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+  <!-- Custom Javascript -->
+  <script src="{% static 'js/main.js' %}"></script>
+
+    
+</body>
+</html>

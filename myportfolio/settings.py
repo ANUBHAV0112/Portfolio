@@ -102,6 +102,9 @@ DATABASES = {
         'PASSWORD': 'Anubhav@123',
         'HOST': 'ec2-13-235-49-96.ap-south-1.compute.amazonaws.com',  
         'PORT': '3306',
+        #  'OPTIONS': {
+        #     'unix_socket': '/var/lib/mysql/mysql.sock',
+        #  }
     }
 }
 

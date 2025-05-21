@@ -13,7 +13,7 @@ def contact_view(request):
         if form.is_valid():
             try:
                 contact = form.save()
-                print("Contact saved:", contact)
+                # print("Contact saved:", contact)
                 return redirect('contact_success')
             except Exception as e:
                 print("🔥 Error saving contact:", e)

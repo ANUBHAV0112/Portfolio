@@ -102,11 +102,12 @@ DATABASES = {
         'PASSWORD': 'Anubhav@123',
         'HOST': 'ec2-13-235-49-96.ap-south-1.compute.amazonaws.com',  
         'PORT': '3306',
-        #  'OPTIONS': {
-        #     'unix_socket': '/var/lib/mysql/mysql.sock',
-        #  }
+       
     }
 }
+
+# Logging is used to monitor, debug, and understand what's happening inside your Django application
+# — especially when things go wrong.
 LOGGING = {
     'version': 1,
     'handlers': {

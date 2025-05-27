@@ -82,29 +82,29 @@ WSGI_APPLICATION = 'myportfolio.wsgi.application'
 # }
 
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'portfolio_db',     
-#         'USER': 'root',
-#         'PASSWORD': 'Anubhav@123',
-#         'HOST': 'localhost',
-#         'PORT': '3306',
-#     }
-# }
-
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'portfolio_db',
-        'USER': 'portfolio_user',
+        'NAME': 'portfolio_db',     
+        'USER': 'root',
         'PASSWORD': 'Anubhav@123',
-        'HOST': 'ec2-13-235-49-96.ap-south-1.compute.amazonaws.com',  
+        'HOST': 'localhost',
         'PORT': '3306',
-       
     }
 }
+
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'portfolio_db',
+#         'USER': 'portfolio_user',
+#         'PASSWORD': 'Anubhav@123',
+#         'HOST': 'ec2-13-235-49-96.ap-south-1.compute.amazonaws.com',  
+#         'PORT': '3306',
+       
+#     }
+# }
 
 # Logging is used to monitor, debug, and understand what's happening inside your Django application
 # — especially when things go wrong.

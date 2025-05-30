@@ -25,7 +25,7 @@ Below are some screenshots of my live portfolio website:
 *Home Page*
 
 ![Phone Page Screenshot](./screenshots/Phone%20SS.jpg)
-*Projects Page*
+*Phone Page*
 
 ![Contact Page Screenshot](./screenshots/contact.png)
 *Contact Page*

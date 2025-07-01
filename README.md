@@ -21,17 +21,19 @@ This repository contains the code for my personal portfolio website, developed u
 
 Below are some screenshots of my live portfolio website:
 
-![Home Page Screenshot](./screenshots/front%20page.png)
+![Home Page Screenshot](./static/img/Portfolio%20front1.png)
 *Home Page*
 
 ![Phone Page Screenshot](./screenshots/Phone%20SS.jpg)
 *Phone Page*
 
-![Contact Page Screenshot](./screenshots/contact.png)
+![Contact Page Screenshot](./static/img/Portfolio%20end.png)
 *Contact Page*
 
 ![EC2 instance Page Screenshot](./screenshots/instance%20EC2.png)
 *EC2 instance*
+
+![Database Output](./static/img/EC2%20DATABASE.png)
 
 ---
 
@@ -53,4 +55,10 @@ Below are some screenshots of my live portfolio website:
 
 ---
 
+👨‍💻 Author :
+Anubhav Choudhary
+
+[LinkedIn](https://www.linkedin.com/in/anubhav-choudhary-35b8ab254/) | [GitHub](https://github.com/ANUBHAV0112)
+
+---
 
